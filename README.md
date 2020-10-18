@@ -49,3 +49,4 @@ bash draw-contributor.sh
 ## 现有问题
 
 1. 这种做法对于不是通过 squash 方式合入 PR 的项目，会算的有问题，还需要去识别哪些是 PR commit
+2. 需要识别main或者master分支
