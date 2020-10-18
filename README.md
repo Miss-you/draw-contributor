@@ -43,10 +43,11 @@ bash draw-contributor.sh
 ## 下一步目标
 
 - 支持 echart 绘图
+- 支持两个或者更多的项目对比（比如 APISIX 与 KONG 的对比）
 - 优化脚本，运行得更快
 - 更精准的贡献者统计数据
 
 ## 现有问题
 
 1. 这种做法对于不是通过 squash 方式合入 PR 的项目，会算的有问题，还需要去识别哪些是 PR commit
-2. 需要识别main或者master分支
+2. 需要识别 main 或者 master 分支
