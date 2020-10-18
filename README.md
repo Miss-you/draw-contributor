@@ -45,3 +45,7 @@ bash draw-contributor.sh
 - 支持 echart 绘图
 - 优化脚本，运行得更快
 - 更精准的贡献者统计数据
+
+## 现有问题
+
+1. 这种做法对于不是通过 squash 方式合入 PR 的项目，会算的有问题，还需要去识别哪些是 PR commit
